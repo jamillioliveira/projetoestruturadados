@@ -60,10 +60,10 @@ void validarSexo(Pessoa pessoa[], int i){
 //validar nome
 // validar se foi digitado corretamente s ou m
 void validarNome(Pessoa pessoa[], int i){
-        while (pessoa[i].nome == "")
+        while (pessoa[i].nome == " ")
         {
             cout << "Nome invalido! ";
-            cin >>pessoa[i].sexo;
+            cin >>pessoa[i].nome;
         }
 }
 
