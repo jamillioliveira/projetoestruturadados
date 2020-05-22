@@ -40,7 +40,7 @@ double quadradoDoPrimeiro(int a, int b)
 
 //4.A raiz quadrada da soma dos quadrados 
 double raizQuadradaSoma(int a, int b)
-{
+{   
     return sqrt( pow(a,2)+pow(b,2) );
 }
 
